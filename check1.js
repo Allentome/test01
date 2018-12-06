@@ -24,7 +24,7 @@ $(function () {
 
     $img=$('#bannerWrap img');
     $img.css('margin-top',($(window).height()-$img[0].height)/2);               //使图片在垂直方向上位于窗口的中央位置
-    $('#bannerWrap').fadeIn(2000).delay(53000).animate({                         //fadeIn() banner历时2秒淡出，delay()动画延迟
+    $('#bannerWrap').fadeIn(2000).delay(3000).animate({                         //fadeIn() banner历时2秒淡出，delay()动画延迟
         width:'0',                                                              //animate()执行自定义动画，宽渐变为0
         opacity:'0'                                                             //透明度渐变为0
     },'slow');
